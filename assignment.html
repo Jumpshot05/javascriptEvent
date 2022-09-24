@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Assignment</title>
+        <link rel="stylesheet" href="assignment.css"> 
+    </head>
+    <body>
+        <div id="box1">
+            <h1>Name: Sourav Gupta</h1>
+            <h3>Reg No:202000116</h3>
+        </div>
+
+        <div id="box2">
+            <img onmouseover="largePic(this)" onmouseout="normPic(this)" src="image.jpg" width="320px" height="180px">
+            <h4 onmouseover="largename(this)" onmouseout="normname(this)" style="font-size: 20px;">Bunny</h4>  
+            <script>
+                function largePic(x){
+                    x.style.width="640px";
+                    x.style.height="360px";
+
+                }
+                function normPic(x){
+                    x.style.width="320px";
+                    x.style.width="180px";
+                }
+
+                function largename(x){
+                    x.style.fontSize = "30px";
+                }
+
+                function normname(x){
+                    x.style.fontSize = "20px";
+                }
+            </script>
+        </div>
+
+        <div id="box3">
+                <h4>sourav_202000116@smit.smu.edu.in</h4>
+        </div>
+    </body>
+</html>
